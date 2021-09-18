@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>白马会所</title>
+		<style type="text/css">
+			.假body{
+				background-image: url(../img/小胖阿达.jpg);
+				background-position: 100% 100%;
+			}
+			html,body{
+				height: 100%;
+				overflow:hidden;
+				}
+			*{margin: 0;
+			padding: 0;}
+				.假body{height: 100%;
+				overflow:hidden;
+				position: relative;}
+				.登录窗口{
+					background-color:rgba(128,128,128,0.3);
+					width: 400px;
+					position: absolute;
+					z-index: 2;
+					left: 0;
+					top: 0;
+					margin:120px 580px;
+					}
+				h1,input,button{margin-left: 50px;}
+				.c1{margin-left: 50px;
+					text-decoration: none;
+					color: gray;
+					font-size: 12px;}
+				.c2{margin-left: 188px;
+					text-decoration: none;
+					color: gray;
+					font-size: 12px;}
+					.c2:hover{text-decoration: underline;}
+					.c1:hover{text-decoration: underline;}
+				h1{
+					font-size: 26px;
+					font-family: 楷体;
+					color: steelblue;
+					font-weight: bold;
+					margin-left: 66px;
+					padding-top: 10px;
+					margin-bottom: 10px;
+				}
+				button{
+					width: 308px;
+					height: 30px;
+					font-size: 16px;
+					background-color:steelblue;
+					border: none;
+					}
+				button:hover{cursor: pointer;
+							color: darkslategrey;}
+					input{
+						width: 300px;
+						height: 30px;
+						font-size: 16px;
+						margin-bottom: 15px;
+					}
+					.bottom{padding-bottom: 60px;}
+					video{width: 100%;}
+		</style>
+	</head>
+	<body>
+		<div class="假body">
+			<div class="登录窗口">
+				<h1>白马会所后台管理系统</h1>
+				<form action="提交.html">
+					<input type="text" name="zhanghu" placeholder="输入你踏马的用户名"><br>
+					<input type="password" name="mima" placeholder="输入你的宝贝密码"><br>
+					<button type="submit" name="denglu">我踏马直接登录</button><br>
+				</form>
+				<div class="bottom"><a href="#" class="c1">我直接注册</a><a href="#" class="c2">我踏马忘了</a></div>
+			</div>
+		</div>
+	</body>
+</html>
